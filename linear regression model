@@ -8,6 +8,8 @@ from sklearn.metrics import mean_squared_error
 
 # Generate some sample data
 X = np.random.rand(100, 1) * 10
+#X is a matrix of 100 rows and 1 column, containing random values between 0 and 10.
+y is generated based on a linear relationship: y = 2 * X + 1, with some random noise added.
 y = 2 * X + 1 + np.random.randn(100, 1) * 2
 
 # Split data into training and testing sets
